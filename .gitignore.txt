@@ -1,0 +1,17 @@
+# --- Archivos de Sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Talend (Archivos temporales y compilados) ---
+/workspace/.metadata/
+*.screenshot
+*.log
+/temp/
+
+# --- Datos Sensibles  ---
+*.csv
+*.xlsx
+
+# --- IDEs y otros ---
+.vscode/
+.idea/

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Bp4p8OTOEfCWrev3EPk6xA" name="RENDIMIENTO_ETSISI_2023_2024" id="_G7IfcOOBEfCIFeDUm8_PLg" label="RENDIMIENTO_ETSISI_2023_2024" dataPackage="_G7jWMOOBEfCIFeDUm8_PLg" Server="Localhost 127.0.0.1" FilePath="F:/uni_cuarto/tfg/datos_principales/Rendimiento.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" RemoveEmptyRow="true" EscapeType="CSV" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_G7jWMOOBEfCIFeDUm8_PLg" name="default" dataManager="_Bp4p8OTOEfCWrev3EPk6xA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_G7j9QOOBEfCIFeDUm8_PLg" id="_Jp7B8ON2EfCIFeDUm8_PLg" label="metadata_2023_2024">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9QeOBEfCIFeDUm8_PLg" label="_Plan_de_estudios" length="78" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9QuOBEfCIFeDUm8_PLg" label="Nivel_de_Estudios" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9Q-OBEfCIFeDUm8_PLg" label="Tipo_Especial" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9ROOBEfCIFeDUm8_PLg" label="Ano_Academico" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9ReOBEfCIFeDUm8_PLg" label="Numero_de_Matriculas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9RuOBEfCIFeDUm8_PLg" label="N__Matriculados" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9R-OBEfCIFeDUm8_PLg" label="N__Aprobados" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9SOOBEfCIFeDUm8_PLg" label="Rendimiento" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9SeOBEfCIFeDUm8_PLg" label="Aprobados_en_1__Mat" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9SuOBEfCIFeDUm8_PLg" label="Matriculados_por_1__vez" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9S-OBEfCIFeDUm8_PLg" label="Rendimiento_en_1__Mat" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9TOOBEfCIFeDUm8_PLg" label="Aprobados_en_2__Mat" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9TeOBEfCIFeDUm8_PLg" label="Matriculados_por_2__vez" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9TuOBEfCIFeDUm8_PLg" label="Rendimiento_en_2__Mat" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9T-OBEfCIFeDUm8_PLg" label="Aprobados_en_3__Mat" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9UOOBEfCIFeDUm8_PLg" label="Matriculados_por_3__vez_o_mas" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9UeOBEfCIFeDUm8_PLg" label="Rendimiento_en_3__Mat" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9UuOBEfCIFeDUm8_PLg" label="Eficiencia_en_matricula" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9U-OBEfCIFeDUm8_PLg" label="Codigo_Centro" length="44" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9VOOBEfCIFeDUm8_PLg" label="Asignatura" length="98" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9VeOBEfCIFeDUm8_PLg" label="Tipo_Asignatura" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9VuOBEfCIFeDUm8_PLg" label="Curso" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G7j9V-OBEfCIFeDUm8_PLg" label="Tipo_Convalidacion" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,26 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="TalendString.removeAccents(&#xA;   row3.Asignatura.contains(&quot;-&quot;) ?&#xD;&#xA;   row3.Asignatura.substring(row1.Asignatura.indexOf(&quot;-&quot;) + 1).trim() :&#xD;&#xA;   row3.Asignatura &#xA;)">
+  <variables name="row3._Plan_de_estudios" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Nivel_de_Estudios" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Tipo_Especial" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Ano_Academico" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Numero_de_Matriculas" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.N__Matriculados" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.N__Aprobados" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.Rendimiento" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row3.Aprobados_en_1__Mat" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Matriculados_por_1__vez" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Rendimiento_en_1__Mat" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Aprobados_en_2__Mat" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Matriculados_por_2__vez" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Rendimiento_en_2__Mat" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Aprobados_en_3__Mat" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Matriculados_por_3__vez_o_mas" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Rendimiento_en_3__Mat" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Eficiencia_en_matricula" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row3.Codigo_Centro" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Asignatura" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Tipo_Asignatura" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Curso" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.Tipo_Convalidacion" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>
