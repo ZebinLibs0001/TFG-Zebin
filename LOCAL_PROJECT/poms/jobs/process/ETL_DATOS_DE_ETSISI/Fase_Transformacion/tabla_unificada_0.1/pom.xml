@@ -11,18 +11,18 @@
   <groupId>org.example.local_project.job</groupId>
   <artifactId>Tabla_unificada</artifactId>
   <version>0.1.0</version>
-  <name>LOCAL_PROJECT Tabla_unificada-0.1.0 (0.1,Job Designs)</name>
+  <name>TFG_TALEND Tabla_unificada-0.1.0 (0.1,Job Designs)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
     <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
     <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
     <talend.job.version>0.1</talend.job.version>
-    <talend.project.name.lowercase>local_project</talend.project.name.lowercase>
-    <talend.job.path>local_project</talend.job.path>
+    <talend.project.name.lowercase>tfg_talend</talend.project.name.lowercase>
+    <talend.job.path>tfg_talend</talend.job.path>
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
-    <talend.project.name>LOCAL_PROJECT</talend.project.name>
+    <talend.project.name>TFG_TALEND</talend.project.name>
     <talend.product.version>7.3.1.20200219_1130</talend.product.version>
     <talend.job.finalName>tabla_unificada_0_1</talend.job.finalName>
     <talend.pigudf.groupid>org.example.local_project.pigudf</talend.pigudf.groupid>

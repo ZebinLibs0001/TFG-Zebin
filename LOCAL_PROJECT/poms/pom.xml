@@ -6,7 +6,7 @@
   <artifactId>code.Master</artifactId>
   <version>7.3.1</version>
   <packaging>pom</packaging>
-  <name>LOCAL_PROJECT Codes Master</name>
+  <name>TFG_TALEND Codes Master</name>
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
@@ -17,7 +17,7 @@
     <module>jobs/process/ETL_DATOS_DE_ETSISI/Fase_Transformacion/tabla_unificada_0.1</module>
   </modules>
   <properties>
-    <talend.project.name>LOCAL_PROJECT</talend.project.name>
+    <talend.project.name>TFG_TALEND</talend.project.name>
     <encoding>UTF-8</encoding>
   </properties>
   <build>
